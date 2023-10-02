@@ -9,7 +9,7 @@ public class Basket {
 
     private List<Product> products;
 
-    Map<ShipmentSize, Long> productSizeCountMap;
+    private Map<ShipmentSize, Long> productSizeCountMap;
 
     public ShipmentSize getShipmentSize() {
 

@@ -10,6 +10,7 @@ public class Basket {
     private List<Product> products;
 
     Map<ShipmentSize, Long> productSizeCountMap;
+
     public ShipmentSize getShipmentSize() {
 
         productSizeCountMap = products.stream()
